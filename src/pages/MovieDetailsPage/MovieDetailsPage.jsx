@@ -4,6 +4,8 @@ import { fetchMovies } from "../../movies-api"
 import css from './MovieDetailsPage.module.css'
 import clsx from 'clsx';
 
+const defaultImg = 'https://64.media.tumblr.com/f82c91bc52cea0c51767e750fec1e498/tumblr_inline_oxtqw8R5Lw1uxn7zu_540.pnj'
+
 const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
 };

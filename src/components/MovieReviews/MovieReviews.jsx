@@ -31,7 +31,7 @@ const MovieReviews = () => {
             {isLoading ? (
                 <p>Loading...</p>
             ) : reviews.length === 0 ? (
-                <p>We don't have any reviews for this movie</p>
+                <p>We don&apos;t have any reviews for this movie</p>
             ) : (
                 <ul className={css.reviews}>
                     {reviews.map((review) => (
